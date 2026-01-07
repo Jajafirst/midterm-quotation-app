@@ -1,0 +1,41 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px; /* Header alignment */
+  padding-right: 20px;
+}
+
+
+/* Table basic style */
+.item-table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+
+.item-table th,
+.item-table td {
+  border-bottom: 1px solid black;
+  padding: 10px 0px;
+}
+
+/* Header */
+#h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+button{
+  background-color: rgb(101, 135, 255);
+  color: white;
+  border-radius: 4px;
+  border: 1px solid #111;
+  padding: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover{
+  color: #111;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: translateY(-2px);
+}
